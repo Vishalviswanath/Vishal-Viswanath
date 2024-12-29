@@ -25,11 +25,7 @@ const Index = () => {
         <h1 className='page-label'>{page.label}</h1>
         <section className='page-description'>
           {page.description.map((list, i) => (
-            <motion.p key={i} 
-            // className='description-text'
-            >
-              {list}
-            </motion.p>
+            <motion.p key={i}>{list}</motion.p>
           ))}
         </section>
       </div>

@@ -52,5 +52,6 @@ section {
     position: relative;
     bottom: auto;
     flex-grow: 1;
+    margin: 0px 0px;
   }
 }
